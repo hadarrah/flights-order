@@ -1,4 +1,4 @@
-import {RedisClient} from "@flights_order/redis-client";
+import {RedisClient} from "@flights-order/redis-client";
 import {BookingDetails, CacheBookingDetails} from "../common/types";
 
 

@@ -13,7 +13,7 @@
     "noEmit": false,
     "sourceMap": true,
     "paths": {
-      "@flights_order/common-utils": ["../../libs/common-utils/src/index.ts"],
+      "@flights-order/common-utils": ["../../libs/common-utils/src/index.ts"],
     }
   },
   "include": ["src/**/*"],

@@ -1,7 +1,7 @@
 import { Worker } from './worker';
 import {Order} from "../common/types";
 import axios from "axios";
-import {PortManager} from "@flights_order/common-utils";
+import {PortManager} from "@flights-order/common-utils";
 
 export class DbWorker implements Worker {
     private baseUrl: string = `http://localhost:${PortManager.getPort('order-service')}`;

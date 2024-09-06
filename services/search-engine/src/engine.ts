@@ -1,5 +1,5 @@
-import {MysqlClient} from "@flights_order/mysql-client";
-import {RedisClient} from "@flights_order/redis-client";
+import {MysqlClient} from "@flights-order/mysql-client";
+import {RedisClient} from "@flights-order/redis-client";
 import {FlightIdFilter} from "./filters/flight-id.filter";
 import { Filters, Flight} from "./common/types";
 import {DestinationFilter} from "./filters/destination.filter";

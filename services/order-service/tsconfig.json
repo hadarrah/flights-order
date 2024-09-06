@@ -13,9 +13,9 @@
     "noEmit": false,
     "sourceMap": true,
     "paths": {
-      "@flights_order/common-utils": ["../../libs/common-utils/src/index.ts"],
-      "@flights_order/mysql-client": ["../../libs/mysql-client/src/index.ts"],
-      "@flights_order/redis-client": ["../../libs/redis-client/src/index.ts"],
+      "@flights-order/common-utils": ["../../libs/common-utils/src/index.ts"],
+      "@flights-order/mysql-client": ["../../libs/mysql-client/src/index.ts"],
+      "@flights-order/redis-client": ["../../libs/redis-client/src/index.ts"],
     }
   },
   "include": ["src/**/*"],

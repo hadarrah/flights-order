@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "@flights_order/common-utils": "workspace:*"
+    "@flights-order/common-utils": "workspace:*"
   },
   "author": "",
   "license": "ISC",

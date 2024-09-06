@@ -10,9 +10,9 @@
     "run": "node dist/index.js"
   },
   "dependencies": {
-    "@flights_order/mysql-client": "workspace:*",
-    "@flights_order/redis-client": "workspace:*",
-    "@flights_order/common-utils": "workspace:*",
+    "@flights-order/mysql-client": "workspace:*",
+    "@flights-order/redis-client": "workspace:*",
+    "@flights-order/common-utils": "workspace:*",
     "express": "^4.19.2"
   },
   "author": "",

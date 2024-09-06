@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import { Engine } from './engine';
 
-import {PortManager} from "@flights_order/common-utils";
+import {PortManager} from "@flights-order/common-utils";
 
 const app = express();
 const port = PortManager.getPort('order-service');

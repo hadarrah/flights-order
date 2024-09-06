@@ -27,9 +27,9 @@ importers:
 
   services/flight-gateway:
     specifiers:
-      '@flights_order/common-utils': workspace:*
-      '@flights_order/mysql-client': workspace:*
-      '@flights_order/redis-client': workspace:*
+      '@flights-order/common-utils': workspace:*
+      '@flights-order/mysql-client': workspace:*
+      '@flights-order/redis-client': workspace:*
       '@types/express': ^4.17.21
       '@types/uuid': ^10.0.0
       celebrate: ^15.0.3
@@ -37,9 +37,9 @@ importers:
       joi: ^17.13.3
       uuid: ^8.3.2
     dependencies:
-      '@flights_order/common-utils': link:../../libs/common-utils
-      '@flights_order/mysql-client': link:../../libs/mysql-client
-      '@flights_order/redis-client': link:../../libs/redis-client
+      '@flights-order/common-utils': link:../../libs/common-utils
+      '@flights-order/mysql-client': link:../../libs/mysql-client
+      '@flights-order/redis-client': link:../../libs/redis-client
       celebrate: 15.0.3
       express: 4.19.2
       joi: 17.13.3
@@ -50,25 +50,25 @@ importers:
 
   services/notification-center:
     specifiers:
-      '@flights_order/common-utils': workspace:*
+      '@flights-order/common-utils': workspace:*
       '@types/express': ^4.17.21
       express: ^4.19.2
     dependencies:
-      '@flights_order/common-utils': link:../../libs/common-utils
+      '@flights-order/common-utils': link:../../libs/common-utils
       express: 4.19.2
     devDependencies:
       '@types/express': 4.17.21
 
   services/order-orchestrator:
     specifiers:
-      '@flights_order/common-utils': workspace:*
+      '@flights-order/common-utils': workspace:*
       '@types/express': ^4.17.21
       axios: ^1.7.7
       celebrate: ^15.0.3
       express: ^4.19.2
       joi: ^17.13.3
     dependencies:
-      '@flights_order/common-utils': link:../../libs/common-utils
+      '@flights-order/common-utils': link:../../libs/common-utils
       axios: 1.7.7
       celebrate: 15.0.3
       express: 4.19.2
@@ -78,43 +78,43 @@ importers:
 
   services/order-service:
     specifiers:
-      '@flights_order/common-utils': workspace:*
-      '@flights_order/mysql-client': workspace:*
-      '@flights_order/redis-client': workspace:*
+      '@flights-order/common-utils': workspace:*
+      '@flights-order/mysql-client': workspace:*
+      '@flights-order/redis-client': workspace:*
       '@types/express': ^4.17.21
       express: ^4.19.2
     dependencies:
-      '@flights_order/common-utils': link:../../libs/common-utils
-      '@flights_order/mysql-client': link:../../libs/mysql-client
-      '@flights_order/redis-client': link:../../libs/redis-client
+      '@flights-order/common-utils': link:../../libs/common-utils
+      '@flights-order/mysql-client': link:../../libs/mysql-client
+      '@flights-order/redis-client': link:../../libs/redis-client
       express: 4.19.2
     devDependencies:
       '@types/express': 4.17.21
 
   services/payment-manager:
     specifiers:
-      '@flights_order/common-utils': workspace:*
+      '@flights-order/common-utils': workspace:*
       '@types/express': ^4.17.21
       express: ^4.19.2
     dependencies:
-      '@flights_order/common-utils': link:../../libs/common-utils
+      '@flights-order/common-utils': link:../../libs/common-utils
       express: 4.19.2
     devDependencies:
       '@types/express': 4.17.21
 
   services/search-engine:
     specifiers:
-      '@flights_order/common-utils': workspace:*
-      '@flights_order/mysql-client': workspace:*
-      '@flights_order/redis-client': workspace:*
+      '@flights-order/common-utils': workspace:*
+      '@flights-order/mysql-client': workspace:*
+      '@flights-order/redis-client': workspace:*
       '@types/express': ^4.17.21
       celebrate: ^15.0.3
       express: ^4.19.2
       joi: ^17.13.3
     dependencies:
-      '@flights_order/common-utils': link:../../libs/common-utils
-      '@flights_order/mysql-client': link:../../libs/mysql-client
-      '@flights_order/redis-client': link:../../libs/redis-client
+      '@flights-order/common-utils': link:../../libs/common-utils
+      '@flights-order/mysql-client': link:../../libs/mysql-client
+      '@flights-order/redis-client': link:../../libs/redis-client
       celebrate: 15.0.3
       express: 4.19.2
       joi: 17.13.3

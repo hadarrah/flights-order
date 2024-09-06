@@ -1,4 +1,4 @@
-import {Passenger} from "@flights_order/common-utils";
+import {Passenger} from "@flights-order/common-utils";
 
 export type Order = {
     booking_id: string;

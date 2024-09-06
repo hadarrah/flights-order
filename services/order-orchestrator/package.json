@@ -14,7 +14,7 @@
     "axios": "^1.7.7",
     "celebrate": "^15.0.3",
     "joi": "^17.13.3",
-    "@flights_order/common-utils": "workspace:*"
+    "@flights-order/common-utils": "workspace:*"
   },
   "author": "",
   "license": "ISC",

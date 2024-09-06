@@ -1,6 +1,6 @@
-import {MysqlClient} from "@flights_order/mysql-client";
+import {MysqlClient} from "@flights-order/mysql-client";
 import {DBBookingDetails} from "../common/types";
-import {Passenger} from "@flights_order/common-utils";
+import {Passenger} from "@flights-order/common-utils";
 
 
 export class DbHandler {

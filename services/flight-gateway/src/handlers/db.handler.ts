@@ -1,5 +1,5 @@
 import {FlightSeat} from "../common/types";
-import {MysqlClient} from "@flights_order/mysql-client";
+import {MysqlClient} from "@flights-order/mysql-client";
 
 
 export class DbHandler {

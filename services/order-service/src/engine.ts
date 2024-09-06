@@ -1,6 +1,6 @@
 import {DbHandler} from "./handlers/db.handler";
 import {CacheHandler} from "./handlers/cache.handler";
-import {Passenger} from "@flights_order/common-utils";
+import {Passenger} from "@flights-order/common-utils";
 
 
 export class Engine {

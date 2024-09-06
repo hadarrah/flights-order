@@ -1,4 +1,4 @@
-import {RedisClient} from "@flights_order/redis-client";
+import {RedisClient} from "@flights-order/redis-client";
 import {FlightSeat} from "../common/types";
 import {v4 as uuidV4} from "uuid";
 

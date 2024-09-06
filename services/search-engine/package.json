@@ -13,9 +13,9 @@
     "express": "^4.19.2",
     "celebrate": "^15.0.3",
     "joi": "^17.13.3",
-    "@flights_order/redis-client": "workspace:*",
-    "@flights_order/mysql-client": "workspace:*",
-    "@flights_order/common-utils": "workspace:*"
+    "@flights-order/redis-client": "workspace:*",
+    "@flights-order/mysql-client": "workspace:*",
+    "@flights-order/common-utils": "workspace:*"
   },
   "author": "",
   "license": "ISC",
