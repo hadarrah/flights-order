@@ -135,3 +135,10 @@ curl -X POST http://localhost:3002/order \
     ]
 }'
 ```
+
+---
+
+## Notes
+
+- The `payment-manager` and `notification-center` services are dummy and not fully implemented. You can "play" with them to explore the SAGA pattern by modifying their responses.
+- **Tests**: To be determined (TBD).
