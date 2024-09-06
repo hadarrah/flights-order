@@ -1,0 +1,19 @@
+{
+  "name": "flights_order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build & run": "pnpm -r run build && pnpm -r --parallel run run",
+    "build libs": "pnpm -r run build-lib",
+    "init db and cache": "pnpm -r run init",
+    "run docker": "docker-compose up"
+  },
+  "workspaces": [
+    "services/*",
+    "libs/*"
+  ],
+  "author": "",
+  "license": "ISC"
+}

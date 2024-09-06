@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",         // Specifies the output directory for compiled JavaScript files
+    "rootDir": "./src",         // Specifies the root directory of input files
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDeclarationOnly": false,
+    "noEmit": false,
+    "sourceMap": true,
+    "paths": {
+      "@flights_order/common-utils": ["../../libs/common-utils/src/index.ts"],
+      "@flights_order/mysql-client": ["../../libs/mysql-client/src/index.ts"],
+      "@flights_order/redis-client": ["../../libs/redis-client/src/index.ts"],
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

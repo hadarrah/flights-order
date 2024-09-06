@@ -1,0 +1,25 @@
+{
+  "name": "search-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build & run": "tsc -b && node dist/index.js",
+    "build": "tsc -b",
+    "run": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "celebrate": "^15.0.3",
+    "joi": "^17.13.3",
+    "@flights_order/redis-client": "workspace:*",
+    "@flights_order/mysql-client": "workspace:*",
+    "@flights_order/common-utils": "workspace:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
